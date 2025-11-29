@@ -35,4 +35,4 @@ npm run build
 The build will be generated in the 'dist' (or 'build') folder ready for deployment.
 
 # Demo:
-Here you can see the demo version of Nutrition Analysis web aplication:
+Here you can see the demo version of Nutrition Analysis web aplication: [Nutrition Analysis](https://nutrition-analysis-application.netlify.app/)
