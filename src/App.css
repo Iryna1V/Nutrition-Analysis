@@ -143,6 +143,8 @@ th {
 @media all and (max-width: 576px) {
   body {
     background-image: url('food.jpg');
+     background-size: cover; 
+    background-repeat: no-repeat; 
   }
 
   .box {
@@ -160,5 +162,7 @@ th {
 @media all and (max-width: 950px){
   body {
     background-image: url('food.jpg');
+     background-size: cover; 
+   background-repeat: no-repeat; 
   }
 }
