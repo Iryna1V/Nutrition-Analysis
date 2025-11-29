@@ -1,16 +1,38 @@
-# React + Vite
+# About Nutrition Analysis web application 
+Nutrition Analysis web application is a user-friendly that allows users to access detailed nutrition information for various foods they consume. 
+This app provides accurate data on the nutritional content of a wide range of food items by a nutrition API
+Enter the name of the food item you want to analyze in the search bar.
+Click the "Search" button.
+The app will fetch and display detailed nutrition information for the specified food item, including calories, macronutrients, and more.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Functionalities:
+- The app is built with advanced React concepts and hooks implementation.
+- API Integration ( Users can quickly search for food items and receive instant nutrition analysis).
+- Simple user interface.
 
-Currently, two official plugins are available:
+# Tech stack:
+- React 19.0
+- Vite
+- CSS
+- Nutrition API (Edamam Nutrition API)
+ 
+# Run the application:
+Install dependencies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm install
 
-## React Compiler
+Start the development server:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+npm run dev
 
-## Expanding the ESLint configuration
+Then open http://localhost:3000 to view it in your browser.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Build for production:
+To create an optimized production build, run:
+
+npm run build
+
+The build will be generated in the 'dist' (or 'build') folder ready for deployment.
+
+# Demo:
+Here you can see the demo version of Nutrition Analysis web aplication:
